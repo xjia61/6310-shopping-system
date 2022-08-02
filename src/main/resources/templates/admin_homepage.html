@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Homepage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Home</a>
+
+
+    <a class="nav-link" href="http://localhost:8080/user/cs6310/team045/user_homepage">User Homepage <span
+            class="sr-only">(current)</span></a>
+
+</nav>
+<p></p>
+<p></p>
+<main role="main">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            <p></p>
+            <p></p>
+            <h1 class="display-3">Admin Homepage</h1>
+            <p>This is the homepage for admin roles, the page allow you to update and display the backend database.</p>
+            <p><a class="btn btn-primary btn-lg" href="http://localhost:8080/user/cs6310/team045/user_homepage"
+                  role="button">User Homepage »</a></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Example row of columns -->
+
+        <div class="row">
+            <div class="card my-3">
+                <h5 class="card-header">Create Elements</h5>
+                <div class="card-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="row align-items-start">
+                                <div class="col-md-4">
+                                    <h2>Make Store</h2>
+                                    <p>View Detail to add new stores to the database. </p>
+                                    <p><a class="btn btn-secondary"
+                                          href="http://localhost:8080/admin/cs6310/team045/make_store_form"
+                                          role="button">View details »</a></p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h2>Make Customer</h2>
+                                    <p>View Detail to add new customers to the database. </p>
+                                    <p><a class="btn btn-secondary"
+                                          href="http://localhost:8080/admin/cs6310/team045/make_customer_form"
+                                          role="button">View details »</a></p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h2>Make Pilot</h2>
+                                    <p>View Detail to add new pilots to the database. </p>
+                                    <p><a class="btn btn-secondary"
+                                          href="http://localhost:8080/admin/cs6310/team045/make_pilot_form"
+                                          role="button">View details »</a></p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h2>Make Drone</h2>
+                                    <p>View Detail to add new drones to the database. </p>
+                                    <p><a class="btn btn-secondary"
+                                          href="http://localhost:8080/admin/cs6310/team045/make_drone_form"
+                                          role="button">View details »</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card my-3">
+                <h5 class="card-header">Assign</h5>
+                <div class="card-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="row align-items-start">
+                                <div class="col-md">
+                                    <h2>Stock Items</h2>
+                                    <p>View Detail to add new items to the select stores. </p>
+                                    <p><a class="btn btn-secondary"
+                                          href="http://localhost:8080/admin/cs6310/team045/stock_item_form"
+                                          role="button">View details »</a></p>
+                                    <h2>Fly Drone</h2>
+                                    <p>View Detail to assign pilot to drone. </p>
+                                    <p><a class="btn btn-secondary"
+                                          href="http://localhost:8080/admin/cs6310/team045/fly_drone_form"
+                                          role="button">View details »</a></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card my-3">
+                <h5 class="card-header">Display Database</h5>
+                <div class="card-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="row align-items-start">
+                                <div class="col-md-4">
+                                    <h2>Display Stores</h2>
+                                    <p>View Detail to display stores in the database. </p>
+                                    <p><a class="btn btn-secondary"
+                                          href="http://localhost:8080/admin/cs6310/team045/stores" role="button">View
+                                        details »</a></p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h2>Display Customer</h2>
+                                    <p>View Detail to display customers in the database.</p>
+                                    <p><a class="btn btn-secondary"
+                                          href="http://localhost:8080/admin/cs6310/team045/customers" role="button">View
+                                        details »</a></p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h2>Display Pilots</h2>
+                                    <p>View Detail to display pilots in the database.</p>
+                                    <p><a class="btn btn-secondary"
+                                          href="http://localhost:8080/admin/cs6310/team045/pilots" role="button">View
+                                        details »</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card my-3">
+                <h5 class="card-header">Display Store Content</h5>
+                <div class="card-body">
+                    <div class="container">
+                        <div class="row">
+                                <div class="row align-items-start">
+                                    <div class="col-md-4">
+                                        <h2>Store Items</h2>
+                                        <p>View Detail to display items in the select store. </p>
+                                        <p><a class="btn btn-secondary"
+                                              href="http://localhost:8080/admin/cs6310/team045/items_form"
+                                              role="button">View details »</a></p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h2>Store Drones</h2>
+                                        <p>View Detail to display drones in the select store. </p>
+                                        <p><a class="btn btn-secondary"
+                                              href="http://localhost:8080/admin/cs6310/team045/drones_form"
+                                              role="button">View details »</a></p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h2>Store Orders</h2>
+                                        <p>View Detail to display orders in the select store. </p>
+                                        <p><a class="btn btn-secondary"
+                                              href="http://localhost:8080/admin/cs6310/team045/orders_form"
+                                              role="button">View details »</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <hr>
+
+        </div> <!-- /container -->
+
+</main>
+
+<footer class="container">
+    <p>CS6310 Team 045</p>
+</footer>
+<!--<h1>Admin Homepage</h1>-->
+<!--<h2 th:text="make"></h2>-->
+<!--<a href="http://localhost:8080/admin/cs6310/team045/make_store_form">make store</a><br/>-->
+<!--<a href="http://localhost:8080/admin/cs6310/team045/make_customer_form">make customer</a><br/>-->
+<!--<a href="http://localhost:8080/admin/cs6310/team045/make_pilot_form">make pilot</a><br/>-->
+<!--<a href="http://localhost:8080/admin/cs6310/team045/make_drone_form">make drone</a><br/>-->
+
+<!--<h2 th:text="do"></h2>-->
+<!--<a href="http://localhost:8080/admin/cs6310/team045/stock_item_form">stock item</a><br/>-->
+<!--<h2 th:text="display"></h2>-->
+<!--<a href="http://localhost:8080/admin/cs6310/team045/stores">display stores</a><br/>-->
+<!--<a href="http://localhost:8080/admin/cs6310/team045/customers">display customers</a><br/>-->
+<!--<a href="http://localhost:8080/admin/cs6310/team045/pilots">display pilots</a><br/>-->
+<!--<a href="http://localhost:8080/admin/cs6310/team045/items_form">display items of a store</a><br/>-->
+<!--<a href="http://localhost:8080/admin/cs6310/team045/drones_form">display drones of a store</a><br/>-->
+<!--<a href="http://localhost:8080/admin/cs6310/team045/orders_form">display orders of a store</a><br/>-->
+<!--<h2 th:text="user"></h2>-->
+<!--<a href="http://localhost:8080/user/cs6310/team045/user_homepage">Go to User Homepage</a><br/>-->
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+</body>
+</html>
